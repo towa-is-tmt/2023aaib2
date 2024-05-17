@@ -13,7 +13,7 @@ int main()
 }
     int bad = 0;
     for(int i=0; i<N; i++){
-        if(line[i] != line[N-1-i]) bad = 1;
+        if(a[i] != a[N-1-i]) bad = 1;
     }
     if(bad==1) printf("NO\n");
     else printf("YES\n");
